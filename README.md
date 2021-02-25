@@ -20,10 +20,6 @@ Se crea la documentación del proyecto usando:
 
 	$ make javadoc
 
-Se crea un archivo jar usando:
-
-	$ make jar 
-
 ** VERSION or DATE: ** Entrega practica 1
 
 ** AUTHORS: ** Miriam Jiménez

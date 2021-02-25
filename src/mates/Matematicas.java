@@ -18,8 +18,20 @@ limitations under the License.
 package mates;
 import java.util.Scanner;
 
+/**
+ * Clase con varias implementaciones de algoritmos matemáticos
+ * 
+ * @author Miriam Jiménez 
+ * @version primera práctica
+ */
 public class Matematicas {
 
+ /**
+     * Método generar una aproximación al número Pi mediante Montecarlo
+     * 
+     * @param  pasos      el número de pasos a repetir el método de Montecarlo 
+     * @return            un número double que se aproxima a Pi 
+     */
   public static double generarNumeroPi(long pasos){
        long aciertos = 0;
        double areaCuadrado = 4.;
