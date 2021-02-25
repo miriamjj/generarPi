@@ -19,15 +19,7 @@ package mates;
 import java.util.Scanner;
 
 public class Matematicas {
-     
-  public static void main (String[] args){  
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Introduce el número de puntos para estimar pi:" );
-        long puntosTotales = sc.nextLong();
-        double pi = generarNumeroPi(puntosTotales); 
-        System.out.println("La aproximación de pi es: " + pi);
-  }
-  
+
   public static double generarNumeroPi(long pasos){
        long aciertos = 0;
        double areaCuadrado = 4.;
